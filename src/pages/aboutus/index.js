@@ -6,7 +6,7 @@ const Aboutus = () => {
     <>
     <Header />
       <div className="container">
-        <div className="flex">
+        <div className="flex"> 
           <div className="basis-1/2 py-40 px-10">
             <h1>
               What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the
