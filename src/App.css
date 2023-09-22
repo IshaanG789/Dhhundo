@@ -1,0 +1,78 @@
+.container {
+  max-width: 1400px;
+  padding-inline: 50px;
+  margin: 0 auto;
+}
+
+.cityInput {
+width: 100%;
+padding: 10px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  justify-content: center;
+  display: inherit;
+}
+
+.MenuImage {
+  height: 250px !important;
+}
+
+.authActionSection {
+  padding-block: 40px 150px;
+  /* background: url("../images/loginbg.svg"); */
+  background-size: cover;
+}
+.formCard {
+  max-width: 615px;
+  background-color: #f9f9fa;
+  margin-inline: auto;
+  padding: 50px 100px;
+  border-radius: 20px;
+  margin-top: 90px;
+}
+.cardHead {
+  margin-bottom: 40px;
+}
+.cardHead h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-block: 0 15px;
+}
+.cardHead p {
+  font-size: 20px;
+  margin: 0;
+  color: var(--lite-text);
+}
+@media (max-width: 767px) {
+  .cardHead h2 {
+    font-size: 30px;
+  }
+  .cardHead p {
+    font-size: 18px;
+  }
+  .authActionSection {
+    padding-bottom: 65px;
+  }
+}
+@media (max-width: 575px) {
+  .authActionSection {
+    /* background-image: url("../images/authBackMob.svg"); */
+  }
+  .formCard {
+    padding: 48px 40px;
+    margin-top: 60px;
+  }
+  .textLink {
+    display: block;
+  }
+}
+@media (max-width: 410px) {
+  .formCard {
+    padding: 30px 15px;
+  }
+}
